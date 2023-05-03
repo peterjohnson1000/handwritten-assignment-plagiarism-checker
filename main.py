@@ -153,5 +153,5 @@ save_image_name_to_text_file()
 
 # call the script with the argument using subprocess
 subprocess.call(["/usr/local/bin/python3", path_to_script, "--img_file", image_file])
-# time.sleep(2)
-# subprocess.call(["python3", "plagiarismChecker.py"])
+time.sleep(2)
+subprocess.call(["python3", "plagiarismChecker.py"])

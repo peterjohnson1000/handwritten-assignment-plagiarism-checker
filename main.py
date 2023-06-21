@@ -18,6 +18,7 @@ from PIL import Image as im
 
 
 #########################
+# importing subprocess to call ML & Plagiarism model
 import subprocess
 
 # define the path to the code 2 script
